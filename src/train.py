@@ -72,12 +72,41 @@ def train_model():
 
     print("\nModel training completed!")
 
+
     # Test the model
     predictions = model.predict(X_test_tfidf)
 
+    # Calculate accuracy
     accuracy = accuracy_score(y_test, predictions)
 
-    print("Model accuracy:", round(accuracy * 100, 2), "%")
+    print("\nModel Evaluation")
+    print("-------------------------")
+
+    print("Accuracy:", round(accuracy * 100, 2), "%")
+
+    # Calculate precision, recall and F1-score
+    print("\nClassification Report:")
+    print(
+        classification_report(
+            y_test,
+            predictions,
+            labels=model.classes_,
+            zero_division=0
+        )
+    )
+
+    # Calculate confusion matrix
+    print("Confusion Matrix:")
+
+    matrix = confusion_matrix(
+        y_test,
+        predictions,
+        labels=model.classes_
+    )
+
+    print("Intent order:", model.classes_)
+    print(matrix)
+
 
     # Save the trained model and vectorizer
     MODEL_DIR.mkdir(parents=True, exist_ok=True)
