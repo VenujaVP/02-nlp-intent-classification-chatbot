@@ -4,6 +4,9 @@ from pathlib import Path
 
 import joblib
 
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
