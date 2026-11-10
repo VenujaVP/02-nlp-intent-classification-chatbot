@@ -1,0 +1,125 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hello there",
+        "Hi there",
+        "How are you",
+        "Is anyone there"
+      ],
+      "responses": [
+        "Hello! Welcome to the University Assistant.",
+        "Hi! How can I help you today?",
+        "Good day! What would you like to know about our university?"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer?",
+        "Which degree programs are available?",
+        "What can I study at this university?",
+        "Tell me about your courses",
+        "What are the available degree programs?",
+        "Can you show me the course list?",
+        "What subjects can I study?",
+        "Which programs do you have?",
+        "I want to know about your courses",
+        "Tell me about the degrees"
+      ],
+      "responses": [
+        "We offer several degree programs. Please contact the university for the latest course information.",
+        "You can explore our available degree programs through the university website.",
+        "I can help you with general course information. Please visit the university website for full details."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How much are the course fees?",
+        "What are the university fees?",
+        "Tell me about the fees",
+        "How much do I need to pay?",
+        "What is the cost of studying?",
+        "Are there any registration fees?",
+        "How much is the tuition fee?",
+        "Can you explain the payment details?",
+        "What is the course price?",
+        "I want to know about university charges"
+      ],
+      "responses": [
+        "Course fees depend on the selected program. Please contact the university for accurate information.",
+        "For the latest fee details, please contact the university administration.",
+        "You can get the official payment information from the university."
+      ]
+    },
+    {
+      "tag": "opening_hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When does the university open?",
+        "What time do you close?",
+        "Is the university open today?",
+        "Tell me your working hours",
+        "When can I visit the university?",
+        "What are the office hours?",
+        "At what time does the office open?",
+        "When does the administration office close?",
+        "What time are you available?"
+      ],
+      "responses": [
+        "Please contact the university administration to confirm the current opening hours.",
+        "Our office hours may vary. Please check the official university website.",
+        "You can contact the university office for the latest working hours."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you very much",
+        "Thanks a lot",
+        "That was helpful",
+        "I appreciate your help",
+        "Thanks for the information",
+        "Many thanks",
+        "You helped me a lot",
+        "Great, thank you"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "No problem! Let me know if you need anything else.",
+        "Glad I could help!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Talk to you later",
+        "Have a nice day",
+        "I am leaving",
+        "See you",
+        "Bye bye",
+        "That's all for now",
+        "Exit"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "Thank you for visiting. See you again!",
+        "Take care! Have a nice day."
+      ]
+    }
+  ]
+}
