@@ -16,3 +16,10 @@ def clean_text(text: str) -> str:
     text = text.strip()
 
     return text
+
+
+def tokenize_text(text: str) -> list:
+    # Split the sentence into individual words
+    tokens = text.split()
+
+    return tokens
