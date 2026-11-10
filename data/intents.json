@@ -13,7 +13,17 @@
         "Hello there",
         "Hi there",
         "How are you",
-        "Is anyone there"
+        "Is anyone there",
+        "Hey there",
+        "Greetings",
+        "How is it going",
+        "Are you available",
+        "Can you help me",
+        "I want to ask something",
+        "Nice to meet you",
+        "How are you doing today",
+        "Good day",
+        "Anyone here"
       ],
       "responses": [
         "Hello! Welcome to the University Assistant.",
@@ -33,7 +43,17 @@
         "What subjects can I study?",
         "Which programs do you have?",
         "I want to know about your courses",
-        "Tell me about the degrees"
+        "Tell me about the degrees",
+        "What academic programs are offered?",
+        "Can I see the list of degrees?",
+        "What undergraduate programs are available?",
+        "Do you offer computer science degrees?",
+        "What fields of study are available?",
+        "Which subjects are taught at your university?",
+        "Can you tell me about the available programs?",
+        "I am interested in your degree programs",
+        "What qualifications can I study for?",
+        "Do you have different study programs?"
       ],
       "responses": [
         "We offer several degree programs. Please contact the university for the latest course information.",
@@ -53,7 +73,17 @@
         "How much is the tuition fee?",
         "Can you explain the payment details?",
         "What is the course price?",
-        "I want to know about university charges"
+        "I want to know about university charges",
+        "How expensive are the courses?",
+        "What is the total cost of a degree?",
+        "Do I have to pay for registration?",
+        "How can I find the fee structure?",
+        "What are the semester fees?",
+        "Is there an application fee?",
+        "How much does university education cost?",
+        "Where can I check the payment information?",
+        "Are course fees paid annually?",
+        "Can you tell me the tuition costs?"
       ],
       "responses": [
         "Course fees depend on the selected program. Please contact the university for accurate information.",
@@ -73,7 +103,17 @@
         "What are the office hours?",
         "At what time does the office open?",
         "When does the administration office close?",
-        "What time are you available?"
+        "What time are you available?",
+        "What time does the university start?",
+        "Are your offices open on weekends?",
+        "What time can I contact the university?",
+        "When does the administration office open?",
+        "Are you open in the evening?",
+        "What are the university office timings?",
+        "Until what time can I visit?",
+        "Is the office open on Saturdays?",
+        "What time do university services end?",
+        "Can I visit the university tomorrow morning?"
       ],
       "responses": [
         "Please contact the university administration to confirm the current opening hours.",
@@ -93,7 +133,17 @@
         "Thanks for the information",
         "Many thanks",
         "You helped me a lot",
-        "Great, thank you"
+        "Great, thank you",
+        "I am grateful for your help",
+        "That answered my question",
+        "Thanks for explaining",
+        "I really appreciate it",
+        "You are very helpful",
+        "That is very useful",
+        "Thanks for your support",
+        "I got the information I needed",
+        "Much appreciated",
+        "Thank you for your time"
       ],
       "responses": [
         "You're welcome! Happy to help.",
@@ -113,7 +163,17 @@
         "See you",
         "Bye bye",
         "That's all for now",
-        "Exit"
+        "Exit",
+        "I have to go now",
+        "Catch you later",
+        "See you next time",
+        "Have a good day",
+        "I will talk to you again",
+        "That is all I need",
+        "Thanks, goodbye",
+        "I am done for today",
+        "Until next time",
+        "I will leave now"
       ],
       "responses": [
         "Goodbye! Have a great day.",
